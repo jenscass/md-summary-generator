@@ -29,10 +29,11 @@ node index.js -f /path/to/your/markdown.md -o /path/to/output/summary.md
 
 ### Generating a Content Summary from a Markdown File URL
 
-```
-node index.js -u https://yourmarkdownfileurl.com/path/to/markdown.md -o /path/to/output/summary.md
-```
+For example: https://raw.githubusercontent.com/jenscass/md-summary-generator/main/README.md
 
+```
+node index.js -u https://raw.githubusercontent.com/jenscass/md-summary-generator/main/README.md -o /path/to/output/summary.md
+```
 If you do not specify the `-o` option, the summary will be output to the console.
 
 ### Command-Line Options
