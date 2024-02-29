@@ -23,11 +23,15 @@ npm install
 
 ### Generating a Content Summary from a Local Markdown File
 
+```
 node index.js -f /path/to/your/markdown.md -o /path/to/output/summary.md
+```
 
 ### Generating a Content Summary from a Markdown File URL
 
+```
 node index.js -u https://yourmarkdownfileurl.com/path/to/markdown.md -o /path/to/output/summary.md
+```
 
 If you do not specify the `-o` option, the summary will be output to the console.
 
