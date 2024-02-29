@@ -1,13 +1,17 @@
 {
   "name": "md-summary-generator",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A simple tool to generate summary from markdown file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenscass/md-summary-generator.git"
+  },  
+  "author": "jenscass",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
